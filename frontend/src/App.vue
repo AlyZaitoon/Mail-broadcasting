@@ -51,7 +51,7 @@ export default {
       }
       else{
       console.log("E-mail broadcasted successfully");
-      axios.post("api link", {
+      axios.post("http://localhost:8080/api/SendEmail", {
         option: this.option,
         subject: this.subject,
         content: this.content,
@@ -63,7 +63,7 @@ export default {
 <style>
 .v-form {
   width: 700px;
-  height: 75%;
+  height: fit-content;
   margin: 30px auto;
   background: beige;
   text-align: left;
