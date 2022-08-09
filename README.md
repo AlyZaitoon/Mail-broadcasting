@@ -1,4 +1,4 @@
-# proj
+# Mail-notification
 
 ## Project setup
 ```
